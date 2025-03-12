@@ -67,3 +67,18 @@ print(f"The maximum number of steps it would take to read the numbers of every p
 
 # Output
 # The maximum number of steps it would take to read the numbers of every person in a phone book of 1000 entries is 1000.
+
+
+# 1.6 You want to read the numbers of just the As.
+# Assuming the names are uniformly distributed, we can estimate the number of entries starting with 'A'.
+
+# Estimate the number of entries starting with 'A'
+num_entries_A = phone_book_size // 26  # Assuming 26 letters in the alphabet
+
+# Calculate the maximum number of steps for reading entries starting with 'A'
+max_steps_read_A = num_entries_A
+
+print(f"The maximum number of steps it would take to read the numbers of just the As in a phone book of {phone_book_size} entries is {max_steps_read_A}.")
+
+# Output
+# The maximum number of steps it would take to read the numbers of just the As in a phone book of 1000 entries is approximately 38.
