@@ -44,3 +44,14 @@ print(f"The maximum number of steps it would take to find a person's phone numbe
 
 # Output
 # The maximum number of steps it would take to find a person's phone number in a phone book of 1000 entries using binary search is 10.
+
+# 1.4 You have a phone number, and you want to find the person’s name in the phone book.
+# The runtime for a linear search is O(n), where n is the number of entries in the phone book.
+
+# Calculate the maximum number of steps for linear search in the phone book
+max_steps_linear_search = phone_book_size
+
+print(f"The maximum number of steps it would take to find a person's name in a phone book of {phone_book_size} entries using linear search is {max_steps_linear_search}.")
+
+# Output
+# The maximum number of steps it would take to find a person's name in a phone book of 1000 entries using linear search is 1000.
