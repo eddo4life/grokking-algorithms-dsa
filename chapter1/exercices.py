@@ -55,3 +55,15 @@ print(f"The maximum number of steps it would take to find a person's name in a p
 
 # Output
 # The maximum number of steps it would take to find a person's name in a phone book of 1000 entries using linear search is 1000.
+
+
+# 1.5 You want to read the numbers of every person in the phone book.
+# The runtime for reading all entries is O(n), where n is the number of entries in the phone book.
+
+# Calculate the maximum number of steps for reading all entries in the phone book
+max_steps_read_all = phone_book_size
+
+print(f"The maximum number of steps it would take to read the numbers of every person in a phone book of {phone_book_size} entries is {max_steps_read_all}.")
+
+# Output
+# The maximum number of steps it would take to read the numbers of every person in a phone book of 1000 entries is 1000.
